@@ -40,7 +40,9 @@ the cut pin of the TFT shild has to be wired to Arduino UNO's `RESET` pin
 ![connected shields](media/arduino-midi-recorder-04.jpg "connected shields")  
 
 ## Display
-
-![display 1](media/arduino-midi-recorder-05.jpg "display 1")  
-![display 2](media/arduino-midi-recorder-06.jpg "display 2")  
-![display 3](media/arduino-midi-recorder-07.jpg "display 3")
+After powering the device is armed. As soon as there is incoming MIDI the recordings starts automatically.  
+![display of arduino midi recorder - ready to record](media/arduino-midi-recorder-05.jpg "display of arduino midi recorder - ready to record")  
+During recording you can see the duration since start. Further a note- and cc-indicator is shown when signals are received and recorded (not visible in this screenshot).  
+![display of arduino midi recorder - during recording](media/arduino-midi-recorder-06.jpg "display of arduino midi recorder - during recording")  
+In case you remove the SD-card this screen is shown on the display  
+![display of arduino midi recorder - sd card error](media/arduino-midi-recorder-07.jpg "display of arduino midi recorder - sd card error")
