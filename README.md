@@ -30,13 +30,14 @@ In case you want to use the combination of
                        |____________________________|
 
 ```
-the cut pin of the TFT shild has to be wired to Arduino UNO's `RESET` pin  
+the cut pin of the TFT shild has to be wired to Arduino UNO's `RESET` pin (green wire).  
+The 4 other wires are connected to the `DS3231`  
 ![wires](media/arduino-midi-recorder-02.jpg "wires")  
 
 ### connect all cables
 ![connected cables](media/arduino-midi-recorder-03.jpg "connected cables")  
 
-### connect shield with the Arduino UNO
+### connect shield with the Arduino UNO and USB cable
 ![connected shields](media/arduino-midi-recorder-04.jpg "connected shields")  
 
 ## Display
